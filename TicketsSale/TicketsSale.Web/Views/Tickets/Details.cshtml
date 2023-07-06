@@ -1,0 +1,62 @@
+﻿@model TicketsSale.Domain.DomainModels.Ticket
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .title{
+        color: cornflowerblue;
+        font-size: 1.5rem;
+    }
+    .size-up{
+        font-size: 2rem;
+    }
+</style>
+
+<h1 class="display-4 text-success">Details</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3 title">
+            Title:
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieTitle)
+        </dd>
+        <dt class="col-sm-3 title">
+            Genre:
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieGenre)
+        </dd>
+        <dt class="col-sm-3 title">
+            Image link:
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieImage)
+        </dd>
+        <dt class="col-sm-3 title">
+            Date:
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ValidDate)
+        </dd>
+        <dt class="col-sm-3 title">
+            Price (USD):
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Price)$
+        </dd>
+    </dl>
+</div>
+
+<hr />
+
+<div class="mt-3">
+    <a asp-action="Index" class="size-up">Back</a>
+    <span class="size-up">|</span>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="size-up">Edit</a>
+</div>

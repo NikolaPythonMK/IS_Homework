@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-TicketsSale.Web-8E4915CB-1765-4918-8D3D-C662A1754909</UserSecretsId>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="bootstrap" Version="5.3.0" />
+		<PackageReference Include="ClosedXML" Version="0.101.0" />
+		<PackageReference Include="ExcelDataReader" Version="3.6.0" />
+		<PackageReference Include="GemBox.Document" Version="35.0.1403" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.31" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.31" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.31" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.31" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.31" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+		<PackageReference Include="Stripe.net" Version="41.20.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\TicketsSale.Domain\TicketsSale.Domain.csproj" />
+		<ProjectReference Include="..\TicketsSale.Service\TicketsSale.Service.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Data\" />
+	</ItemGroup>
+
+</Project>

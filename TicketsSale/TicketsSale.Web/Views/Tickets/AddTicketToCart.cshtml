@@ -1,0 +1,48 @@
+﻿@model TicketsSale.Domain.DTO.AddToShoppingCartDTO
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<style>
+    .size-up {
+        font-size: 2rem;
+    }
+</style>
+
+<h1 class="display-4 text-success">Add your ticket to your shopping cart.</h1>
+
+<hr />
+
+<div class="row mt-5">
+    <div class="col-md-4 d-flex justify-content-center">
+        <form method="post" asp-action="AddTicketToCart">
+            <input type="hidden" asp-for="TicketId" />
+            <div class="form-group">
+                <label asp-for="Ticket.MovieTitle"></label>
+                <input disabled asp-for="Ticket.MovieTitle" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Ticket.MovieGenre"></label>
+                <input disabled asp-for="Ticket.MovieGenre" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input type="number" asp-for="Quantity" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success w-100" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<hr />
+
+<div>
+    <a asp-action="Index" class="size-up">Go Back to Tickets page.</a>
+</div>

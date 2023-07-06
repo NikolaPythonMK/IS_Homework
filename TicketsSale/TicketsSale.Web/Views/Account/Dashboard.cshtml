@@ -1,0 +1,72 @@
+﻿@using TicketsSale.Domain.DTO
+@using TicketsSale.Domain.Identity
+@using Microsoft.AspNetCore.Identity;
+@using System.Threading.Tasks;
+@inject UserManager<TicketsSaleApplicationUser> UserManager
+@model UserToRole
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="display-4 text-success mb-3 mt-3">Dashboard</h1>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Role</th>
+            <th scope="col">Select Role</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (TicketsSaleApplicationUser user in Model.UserEmails)
+        {
+            <tr scope="row">
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>
+                    @{
+                        if (string.Join(" ", await UserManager.GetRolesAsync(user)).Equals("Admin"))
+                        { <p>Admin</p> }
+                        else
+                        { <p>User</p> }
+                    }
+                </td>
+                <td>
+                    @{
+                        using (Html.BeginForm("AddRole", "Account", FormMethod.Post))
+                        {
+                            <div class="d-flex">
+                                <input name="Email" type="text" value='@user.Email' hidden />
+                                @Html.DropDownListFor(m => m.SelectedRole, new SelectList(Model.UserRoles), new { @class = "form-control" })
+                                <input type="submit" value="Submit" class="btn btn-outline-success mx-2" />
+                            </div>
+
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+
+

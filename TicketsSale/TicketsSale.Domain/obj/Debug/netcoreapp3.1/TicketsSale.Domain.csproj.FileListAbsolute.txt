@@ -1,0 +1,10 @@
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\bin\Debug\netcoreapp3.1\TicketsSale.Domain.deps.json
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\bin\Debug\netcoreapp3.1\TicketsSale.Domain.dll
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\bin\Debug\netcoreapp3.1\TicketsSale.Domain.pdb
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.csproj.AssemblyReference.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.AssemblyInfoInputs.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.AssemblyInfo.cs
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.dll
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Domain\obj\Debug\netcoreapp3.1\TicketsSale.Domain.pdb

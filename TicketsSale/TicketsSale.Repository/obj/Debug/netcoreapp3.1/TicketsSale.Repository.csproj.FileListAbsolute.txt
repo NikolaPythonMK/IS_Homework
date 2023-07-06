@@ -1,0 +1,16 @@
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Repository.deps.json
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Repository.runtimeconfig.json
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Repository.runtimeconfig.dev.json
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Repository.dll
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Repository.pdb
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Domain.dll
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\bin\Debug\netcoreapp3.1\TicketsSale.Domain.pdb
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.csproj.AssemblyReference.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.AssemblyInfoInputs.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.AssemblyInfo.cs
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.csproj.CopyComplete
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.dll
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.pdb
+C:\Users\Nikola\Desktop\IS_203234\TicketsSale\TicketsSale.Repository\obj\Debug\netcoreapp3.1\TicketsSale.Repository.genruntimeconfig.cache

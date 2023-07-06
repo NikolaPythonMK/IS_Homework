@@ -1,0 +1,55 @@
+﻿@model TicketsSale.Domain.DomainModels.Ticket
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="display-4 text-danger">Delete</h1>
+
+<h3>Are you sure?</h3>
+<h3 class="text-danger">This action cannot be undone.</h3>
+<div class="d-flex justify-content-center">
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.MovieGenre)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieGenre)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.MovieTitle)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieTitle)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.MovieImage)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MovieImage)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.ValidDate)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.ValidDate)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+    </dl>
+
+
+    <hr />
+
+    <form asp-action="Delete" class="delete-element">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <span class="symbol">|</span>
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
